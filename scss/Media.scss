@@ -1,0 +1,56 @@
+@media (max-width: 800px) {
+
+    nav {
+        display: none;
+    }
+
+    .home {
+        width: 90%;
+        grid-template-columns: 1fr;
+
+        &__image {
+            min-height: 350px;
+        }
+    }
+
+    .offers {
+        width: 90%;
+
+        &__items {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .products {
+        width: 90%;
+
+        &__grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .news {
+        width: 90%;
+
+        &__grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .avangard {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .offers__items,
+    .products__grid,
+    footer {
+        grid-template-columns: 1fr;
+    }
+}

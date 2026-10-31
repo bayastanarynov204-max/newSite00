@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #202b4d;
+    background-color: #fff;
+}
+
+@import "Header";
+@import "Home";
+@import "Offers";
+@import "News";
+@import "Avangard";
+@import "Footer";
+@import "Media";

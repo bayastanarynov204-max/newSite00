@@ -1,0 +1,58 @@
+header {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    border-bottom: 1px solid #ddd;
+
+    .logo {
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    nav a {
+        margin: 0 15px;
+        font-size: 14px;
+        color: #555;
+    }
+}
+
+.home {
+    width: 76%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 360px;
+
+    &__text {
+        background: #17244b;
+        color: white;
+        padding: 55px 45px;
+
+        h1 {
+            font-size: 28px;
+            line-height: 1.4;
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+
+        p {
+            margin-top: 90px;
+            font-size: 13px;
+            line-height: 1.7;
+        }
+    }
+
+    &__image {
+        background: url("https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=900&q=80")
+        center / cover;
+    }
+}
+
+.button {
+    display: inline-block;
+    background: #29385f;
+    color: white;
+    padding: 14px 24px;
+}
